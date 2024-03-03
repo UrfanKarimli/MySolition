@@ -1,0 +1,76 @@
+.invoice{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 240px; */
+    /* margin-top: 65px; */
+    text-align: center;
+}
+
+.bg{
+    background-color:#EEEEEE;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.bg-white{
+    background-color:white;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main{
+    width: 95%;
+    margin: 20px auto;
+}
+
+.page_name{
+    color: #252525;
+}
+
+.inp{
+    width: 100%;
+    margin-top: 12px !important;
+}
+
+.labels{
+    color: #252525;
+    font-family:  "Poppins" !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn{
+    width: 90% !important;
+    height: 45px !important;
+    background-color: orange !important;
+    font-weight: 600 !important;
+    margin: 20px auto;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color:rgb(238, 155, 1) !important;
+}
+
+.btn-create{
+    width: 20% !important;
+    border-radius: 4px;
+    color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 42px;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer{
+    display: flex;
+    justify-content: center;
+}
+
